@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Не достаточно метамфетамина, необходимо: ","color":"gold"}, {"score":{"name":"@s","objective":"meth_needed"}, "color":"green"}]

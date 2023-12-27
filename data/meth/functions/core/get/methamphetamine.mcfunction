@@ -1,0 +1,1 @@
+give @s minecraft:sugar{methamphetamine:1b, meth_type:4b, Enchantments:[{}], display:{Name:'{"text":"Метамфетамин (Чистый) [C10H15N]", "color":"gold", "italic":false}', Lore:['[{"text":"Для использования возьми в руку и нажми ", "italic":false},{"keybind":"key.sneak"}]']}}

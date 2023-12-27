@@ -1,0 +1,22 @@
+[
+    {
+      "condition": "minecraft:location_check",
+      "offsetY": 1,
+      "predicate": {
+        "block": {
+          "blocks": [
+            "minecraft:brewing_stand"
+          ],
+          "nbt": "{Items:[{tag:{evaporator:{evaporable:1b}}}]}"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:reference",
+        "name": "meth:evaporator/out_of_fuel"
+      }
+    }
+  ]
+  

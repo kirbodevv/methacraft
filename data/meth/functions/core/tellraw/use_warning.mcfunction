@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Ты уверен, что хочешь? ","color":"gold"},{"text":"["},{"text":"Да","color":"green","clickEvent":{"action":"run_command","value":"/trigger use_meth set 1"}, "hoverEvent":{"action":"show_text","contents":"На свой страх и риск..."}},{"text":"]"}]

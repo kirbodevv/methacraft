@@ -1,0 +1,1 @@
+give @s minecraft:redstone{methamphetamine:1b, meth_type:3b, Enchantments:[{}], display:{Name:'{"text":"Красный метамфетамин (Чистый) [C10H15N]", "color":"gold", "italic":false}', Lore:['[{"text":"Для использования возьми в руку и нажми ", "italic":false},{"keybind":"key.sneak"}]']}}

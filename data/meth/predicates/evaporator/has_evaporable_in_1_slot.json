@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "offsetY": 1,
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:brewing_stand"
+        ],
+        "nbt": "{Items:[{Slot:0b, tag:{evaporator:{evaporable:1b}}}]}"
+      }
+    }
+  }

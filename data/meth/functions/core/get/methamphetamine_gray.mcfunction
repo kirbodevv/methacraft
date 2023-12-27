@@ -1,0 +1,1 @@
+give @s minecraft:gunpowder{methamphetamine:1b, meth_type:1b, Enchantments:[{}], display:{Name:'{"text":"Метамфетамин (Плохо изучен)", "color":"gold", "italic":false}', Lore:['[{"text":"Для использования возьми в руку и нажми ", "italic":false},{"keybind":"key.sneak"}]']}}

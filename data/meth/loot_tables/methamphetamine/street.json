@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:methamphetamine/core",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{meth_type:1b}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Метамфетамин (Плохо изучен)",
+                  "color": "gold",
+                  "italic": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,2 @@
+execute if score @s meth_action_time >= $meth_increase_stage_value meth_settings run function meth:meth/addiction/increase
+execute as @a[scores={meth_action_time=0, addiction_stage=1.., meth_addiction_time=1..}] run function meth:meth/addiction/decrease

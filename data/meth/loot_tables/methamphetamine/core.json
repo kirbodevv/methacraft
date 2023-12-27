@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:sugar",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{methamphetamine:1b, Enchantments:[{}]}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  [
+                    {
+                      "text": "Для использования возьми в руку и нажми ",
+                      "italic": false
+                    },
+                    {
+                      "keybind": "key.sneak",
+                      "color": "green"
+                    }
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

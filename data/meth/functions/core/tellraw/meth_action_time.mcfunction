@@ -1,0 +1,1 @@
+title @s actionbar [{"text":"Время очистки от метамфетамина: ", "color":"white"}, {"score":{"name":"@s","objective":"meth_action_time_in_s"}, "color":"green"}, {"text":"s", "color":"white"}]
