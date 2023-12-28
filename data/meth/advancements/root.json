@@ -4,9 +4,12 @@
       "item": "minecraft:sugar",
       "nbt": "{Enchantments:[{}]}"
     },
-    "title": "Первый раз занюхнул",
-    "description": "Я предупреждал...",
-    "background": "minecraft:textures/block/diamond_block.png"
+    "title": "Метамфетамин",
+    "description": "Главная история сервера",
+    "background": "minecraft:textures/block/diamond_block.png",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
   },
   "criteria": {
     "meth_used": {

@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{meth_type:4b}"
+                "tag": "{meth_type:3b}"
               },
               {
                 "function": "minecraft:set_name",

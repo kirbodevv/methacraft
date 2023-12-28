@@ -3,6 +3,8 @@
 function meth:core/setup/scoreboards
 
 function meth:core/sneak_trigger/loop
+function meth:core/login_trigger/loop
+function meth:foodndrink/loop
 
 scoreboard players enable @a use_meth
 execute as @a[scores={use_meth=1..}] run function meth:meth/use/use

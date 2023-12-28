@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Питерский квас",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Выпил квас - пошел мочить басурман",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:2824707}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:5,Amplifier:1,Duration:1200,ShowParticles:0b},{Id:21,Amplifier:4,Duration:1200,ShowParticles:0b}]}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{evaporable:1b, evaporator_craft_id:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

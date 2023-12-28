@@ -1,0 +1,1 @@
+execute if score @s tarhuntimer matches 0 run function meth:foodndrink/tellraw/notification

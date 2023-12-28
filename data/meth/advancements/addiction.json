@@ -7,7 +7,7 @@
     "title": "Кажется ты зависим...",
     "description": "Я предупреждал..."
   },
-  "parent": "meth:root",
+  "parent": "meth:first_try",
   "criteria": {
     "meth_used": {
       "trigger": "minecraft:tick",

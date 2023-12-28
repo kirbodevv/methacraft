@@ -1,5 +1,5 @@
 #> Core
-scoreboard objectives add join minecraft.custom:minecraft.leave_game
+scoreboard objectives add kgc.lg minecraft.custom:minecraft.leave_game
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
 scoreboard objectives add sneak_ dummy
 scoreboard objectives add item_counter dummy
@@ -32,3 +32,7 @@ scoreboard objectives add evaporator_prog_s3 dummy
 #> Const
 scoreboard objectives add CONST dummy
 scoreboard players set tick CONST 20
+
+#> Food and drinks 
+scoreboard objectives add foodndrink trigger
+scoreboard objectives add foodndrinktimer dummy

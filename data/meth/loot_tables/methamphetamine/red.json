@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{meth_type:3b}"
+                "tag": "{meth_type:2b, CustomModelData:1400002}"
               },
               {
                 "function": "minecraft:set_name",

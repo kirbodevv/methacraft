@@ -1,6 +1,6 @@
 execute if score @s want_use_meth matches 1 run clear @s minecraft:sugar{meth_type:1b} 1
+execute if score @s want_use_meth matches 2 run clear @s minecraft:sugar{meth_type:2b} 1
 execute if score @s want_use_meth matches 3 run clear @s minecraft:sugar{meth_type:3b} 1
-execute if score @s want_use_meth matches 4 run clear @s minecraft:sugar{meth_type:4b} 1
 scoreboard players remove @s meth_needed 1
 scoreboard players add @s meth_used 1
 scoreboard players add @s meth_action_time 6000

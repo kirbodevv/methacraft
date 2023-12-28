@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Тархун",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Хорошо что не марихуана",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:4521779}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:1,Amplifier:1,Duration:1200,ShowParticles:0b},{Id:3,Amplifier:1,Duration:1200,ShowParticles:0b}]}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{evaporator:{evaporable:1b, craft_id:1}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
