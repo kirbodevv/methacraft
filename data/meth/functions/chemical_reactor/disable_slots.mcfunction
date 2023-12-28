@@ -1,0 +1,1 @@
+execute at @s run data modify block ~ ~1 ~ Items insert 0 value {Slot:3b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}

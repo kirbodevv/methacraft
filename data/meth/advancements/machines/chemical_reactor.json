@@ -4,14 +4,14 @@
         "item": "minecraft:brewing_stand",
         "nbt": "{Enchantments:[{}]}"
       },
-      "title": "Юный Хайзенбарг",
-      "description": "Установи сушилку",
+      "title": "Химический реактор",
+      "description": "Установи химический реактор",
       "frame": "challenge",
         "show_toast": true,
         "announce_to_chat": false,
         "hidden": true
     },
-    "parent": "meth:addiction",
+    "parent": "meth:machines/evaporator",
     "criteria": {
 		"requirement": {
 			"trigger": "minecraft:impossible"

@@ -1,6 +1,7 @@
 {
     "values": [
         "meth:core/loop",
-        "meth:evaporator/loop"
+        "meth:evaporator/loop",
+        "meth:chemical_reactor/loop"
     ]
 }

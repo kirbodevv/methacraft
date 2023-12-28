@@ -6,6 +6,9 @@ function meth:core/sneak_trigger/loop
 function meth:core/login_trigger/loop
 function meth:foodndrink/loop
 
+clear @a minecraft:light_gray_stained_glass_pane{delete:1b}
+kill @e[nbt={Item:{tag:{delete:1b}}}]
+
 scoreboard players enable @a use_meth
 execute as @a[scores={use_meth=1..}] run function meth:meth/use/use
 
