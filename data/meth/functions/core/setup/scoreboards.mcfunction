@@ -8,7 +8,7 @@ execute as @a unless score @s foodndrinktimer matches 0.. run scoreboard players
 execute unless score $meth_clearance_threshold meth_settings matches 0.. run scoreboard players set $meth_clearance_threshold meth_settings 0
 execute unless score $meth_addiction_threshold meth_settings matches 0.. run scoreboard players set $meth_addiction_threshold meth_settings 600
 execute unless score $meth_increase_stage_value meth_settings matches 0.. run scoreboard players set $meth_increase_stage_value meth_settings 9000
-execute unless score $meth_lethal_dose meth_settings matches 0.. run scoreboard players set $meth_lethal_dose meth_settings 0
+execute unless score $meth_lethal_dose meth_settings matches 0.. run scoreboard players set $meth_lethal_dose meth_settings 24000
 execute unless score $foodndrink_cooldown meth_settings matches 0.. run scoreboard players set $foodndrink_cooldown meth_settings 12000
 
 execute as @e[tag=evaporator] unless score @s evaporator_prog_s1 matches 0.. run scoreboard players set @s evaporator_prog_s1 200
