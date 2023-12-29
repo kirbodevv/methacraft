@@ -20,6 +20,18 @@
       {
         "condition": "minecraft:reference",
         "name": "meth:chemical_reactor/recipes/methylamine"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/benzene"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/p2p"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/gavrix_meth"
       }
     ]
   }

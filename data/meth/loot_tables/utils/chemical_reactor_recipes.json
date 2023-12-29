@@ -52,6 +52,36 @@
                 "name": "meth:chemical_reactor/recipes/methylamine"
               }
             ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/benzene",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/benzene"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/p2p",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/p2p"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/gavrix_meth",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/gavrix_meth"
+              }
+            ]
           }
         ]
       }

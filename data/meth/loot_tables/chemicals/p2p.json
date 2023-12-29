@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Фенилацетон [C9H10O]",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Жидкость с приятным запахом",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'chemicals:p2p'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16777215}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:9,Duration:100},{Id:19,Duration:100}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

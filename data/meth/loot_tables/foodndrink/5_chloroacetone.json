@@ -1,0 +1,14 @@
+{
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/chloroacetone"
+          }
+        ]
+      }
+    ]
+  }
+  

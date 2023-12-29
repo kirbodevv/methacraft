@@ -28,6 +28,19 @@
                     }
                 }
             ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:foodndrink/5_chloroacetone",
+            "conditions": [
+                {
+                    "condition": "minecraft:entity_scores",
+                    "entity": "this",
+                    "scores": {
+                      "foodndrink": 3
+                    }
+                }
+            ]
           }
         ]
       }

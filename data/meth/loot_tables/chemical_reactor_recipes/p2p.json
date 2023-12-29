@@ -5,12 +5,12 @@
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "name": "meth:chemicals/methanol"
+            "name": "meth:chemicals/p2p"
           }
         ]
       },
       {
-        "rolls": 2,
+        "rolls": 1,
         "entries": [
           {
             "type": "minecraft:item",

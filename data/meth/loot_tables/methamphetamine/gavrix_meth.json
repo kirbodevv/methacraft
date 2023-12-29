@@ -1,0 +1,31 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:methamphetamine/core",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{meth_type:2b, CustomModelData:1400003}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Гаврический метамфетамин [C10H15N]",
+                  "color": "gold",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'meth:gavrix_meth'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}

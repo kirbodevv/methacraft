@@ -1,3 +1,4 @@
 tellraw @s {"text":"Вы можете получить одно из: ", "color": "gold"}
 tellraw @s {"text":"    - Тархун","color":"green", "clickEvent":{"action":"run_command","value":"/trigger foodndrink set 1"}, "hoverEvent":{"action":"show_text","contents":"Нажмите, чтобы получить тархун"}}
 tellraw @s {"text":"    - Питерский квас","color":"green", "clickEvent":{"action":"run_command","value":"/trigger foodndrink set 2"}, "hoverEvent":{"action":"show_text","contents":"Нажмите, чтобы получить питерский квас"}}
+tellraw @s {"text":"    - 5 Хлорацетон","color":"green", "clickEvent":{"action":"run_command","value":"/trigger foodndrink set 3"}, "hoverEvent":{"action":"show_text","contents":"Нажмите, чтобы получить 5 хлорацетон"}}
