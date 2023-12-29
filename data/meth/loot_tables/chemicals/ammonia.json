@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Аммиак [NH3]",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Имеет острый раздражающий запах",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'chemicals:ammonia'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16777215}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:9,Duration:1200},{Id:19,Duration:800}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

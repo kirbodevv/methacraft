@@ -8,6 +8,18 @@
       {
         "condition": "minecraft:reference",
         "name": "meth:chemical_reactor/recipes/methanol"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/n"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/ammonia"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "meth:chemical_reactor/recipes/methylamine"
       }
     ]
   }

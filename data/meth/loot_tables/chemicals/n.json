@@ -1,0 +1,45 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Азот [N2]",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Съели",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'chemicals:n'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16777215}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

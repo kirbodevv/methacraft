@@ -1,5 +1,5 @@
-execute at @s run data modify block ~ ~1 ~ Items insert 0 value {Slot:0b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
-execute at @s run data modify block ~ ~1 ~ Items insert 1 value {Slot:1b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
-execute at @s run data modify block ~ ~1 ~ Items insert 2 value {Slot:2b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
-execute at @s if entity @s[tag=isWorking] run data modify block ~ ~1 ~ Items insert 3 value {Slot:3b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":"Выключить", "italic":false, "color":"red"}'}, CustomModelData:1400002}}
-execute at @s unless entity @s[tag=isWorking] run data modify block ~ ~1 ~ Items insert 3 value {Slot:3b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":"Включить", "italic":false, "color":"green"}'}, CustomModelData:1400001}}
+execute at @s run data modify block ~ ~1 ~ Items append value {Slot:0b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
+execute at @s run data modify block ~ ~1 ~ Items append value {Slot:1b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
+execute at @s run data modify block ~ ~1 ~ Items append value {Slot:2b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":""}'}}}
+execute at @s if entity @s[tag=isWorking] run data modify block ~ ~1 ~ Items append value {Slot:3b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":"Выключить", "italic":false, "color":"red"}'}, CustomModelData:1400002}}
+execute at @s unless entity @s[tag=isWorking] run data modify block ~ ~1 ~ Items append value {Slot:3b, id:"minecraft:light_gray_stained_glass_pane", Count:1b, tag:{delete:1b, display:{Name:'{"text":"Включить", "italic":false, "color":"green"}'}, CustomModelData:1400001}}

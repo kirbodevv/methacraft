@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/ammonia"
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+  

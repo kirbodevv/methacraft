@@ -5,7 +5,7 @@
         "blocks": [
           "minecraft:dropper"
         ],
-        "nbt": "{Items:[{Slot:3b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:4b, tag:{kgc:{id:\"chemicals:co\"}}}, {Slot:5b, tag:{kgc:{id:\"chemicals:h\"}}}]}"
+        "nbt": "{Items:[{Slot:0b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:2b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:3b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:5b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:6b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:8b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:4b, tag:{kgc:{id:\"chemicals:co\"}}}, {Slot:7b, tag:{kgc:{id:\"chemicals:co\"}}}]}"
       }
     }
   }

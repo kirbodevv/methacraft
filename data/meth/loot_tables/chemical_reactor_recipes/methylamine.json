@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/methylamine"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+                {   
+                    "function": "minecraft:set_potion",
+                    "id": "minecraft:water"
+                }
+            ]   
+          }
+        ]
+      }
+    ]
+  }
+  

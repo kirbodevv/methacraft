@@ -1,0 +1,23 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/methanol"
+          }
+        ]
+      },
+      {
+        "rolls": 7,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:4b, id:\"minecraft:glass_bottle\", Count:1b}, {Slot:7b, id:\"minecraft:blue_ice\", Count:16b}]}"
+      }
+    }
+  }
+  

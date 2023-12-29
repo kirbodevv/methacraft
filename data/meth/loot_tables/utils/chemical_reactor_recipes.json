@@ -15,11 +15,41 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "meth:chemicals/methanol",
+            "name": "meth:chemical_reactor_recipes/methanol",
             "conditions": [
               {
                 "condition": "minecraft:reference",
                 "name": "meth:chemical_reactor/recipes/methanol"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/n",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/n"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/ammonia",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/ammonia"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/methylamine",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/methylamine"
               }
             ]
           }

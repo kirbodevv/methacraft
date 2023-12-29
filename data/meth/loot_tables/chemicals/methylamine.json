@@ -1,0 +1,49 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Метиламин [CH3NH2]",
+                  "color": "green",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Почти мет",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'chemicals:methylamine'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:10003455}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{HideFlags:32}"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionEffects:[{Id:7,Amplifier:28,Duration:-1}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
