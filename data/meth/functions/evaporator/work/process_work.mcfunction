@@ -1,6 +1,5 @@
 particle minecraft:cloud ~ ~2 ~
-scoreboard players add @s evaporator_working_time 1
-execute if entity @s[scores={evaporator_working_time=20..}] run function meth:evaporator/work/fuel_decrease
+function meth:core/machine/process_work
 
 execute if entity @s[scores={evaporator_prog_s1=0}] if predicate meth:evaporator/has_evaporable_in_1_slot positioned ~ ~1 ~ run function meth:evaporator/craft/end_craft_1
 execute if entity @s[scores={evaporator_prog_s2=0}] if predicate meth:evaporator/has_evaporable_in_2_slot positioned ~ ~1 ~ run function meth:evaporator/craft/end_craft_2

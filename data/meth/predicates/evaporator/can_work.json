@@ -15,7 +15,7 @@
       "condition": "minecraft:inverted",
       "term": {
         "condition": "minecraft:reference",
-        "name": "meth:evaporator/out_of_fuel"
+        "name": "meth:machine/out_of_fuel"
       }
     }
   ]

@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Монооксид углерода [CO]",
+                  "text": "Метанол [CH4O]",
                   "color": "green",
                   "italic": false
                 }
@@ -19,14 +19,14 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "Когда кислорода недостаточно",
+                    "text": "Спирт",
                     "italic": false
                   }
                 ]
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{kgc:{id:'chemicals:co'}}"
+                "tag": "{kgc:{id:'chemicals:methanol'}}"
               },
               {
                 "function": "minecraft:set_nbt",

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:3b, tag:{kgc:{id:\"chemicals:h\"}}}, {Slot:4b, tag:{kgc:{id:\"chemicals:co\"}}}, {Slot:5b, tag:{kgc:{id:\"chemicals:h\"}}}]}"
+      }
+    }
+  }
+  

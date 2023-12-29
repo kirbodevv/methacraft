@@ -18,6 +18,10 @@
                   "color": "gold",
                   "italic": false
                 }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'meth:meth_red'}}"
               }
             ]
           }

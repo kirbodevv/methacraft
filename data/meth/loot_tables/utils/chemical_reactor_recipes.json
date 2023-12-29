@@ -1,0 +1,30 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemical_reactor_recipes/co_h",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/co_h"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "name": "meth:chemicals/methanol",
+            "conditions": [
+              {
+                "condition": "minecraft:reference",
+                "name": "meth:chemical_reactor/recipes/methanol"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+      "block": {
+        "blocks": [
+          "minecraft:dropper"
+        ],
+        "nbt": "{Items:[{Slot:3b, id:\"minecraft:glass_bottle\", Count:3b}, {Slot:4b, id:\"minecraft:coal\", Count:1b}, {Slot:5b, tag:{Potion:\"minecraft:water\"}, Count:1b}]}"
+      }
+    }
+  }
+  

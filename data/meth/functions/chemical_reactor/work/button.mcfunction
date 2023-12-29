@@ -1,0 +1,2 @@
+execute if entity @s[tag=!isWorking] unless block ~ ~1 ~ brewing_stand{Items:[{Slot:3b, id:"minecraft:light_gray_stained_glass_pane"}]} run function meth:chemical_reactor/work/on
+execute if entity @s[tag=isWorking] unless block ~ ~1 ~ brewing_stand{Items:[{Slot:3b, id:"minecraft:light_gray_stained_glass_pane"}]} run function meth:chemical_reactor/work/off

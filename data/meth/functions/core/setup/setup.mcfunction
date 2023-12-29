@@ -22,9 +22,11 @@ scoreboard objectives add meth_speed dummy
 scoreboard objectives add meth_haste dummy
 scoreboard objectives add meth_night_vision dummy
 
+#> Machines
+scoreboard objectives add machine_fuel dummy
+scoreboard objectives add machine_working_time dummy
+
 #> Evaporator
-scoreboard objectives add evaporator_fuel dummy
-scoreboard objectives add evaporator_working_time dummy
 scoreboard objectives add evaporator_prog_s1 dummy
 scoreboard objectives add evaporator_prog_s2 dummy
 scoreboard objectives add evaporator_prog_s3 dummy

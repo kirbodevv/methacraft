@@ -10,7 +10,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Монооксид углерода [CO]",
+                  "text": "Водород [H2]",
                   "color": "green",
                   "italic": false
                 }
@@ -19,26 +19,22 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "Когда кислорода недостаточно",
+                    "text": "Почти вода",
                     "italic": false
                   }
                 ]
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{kgc:{id:'chemicals:co'}}"
+                "tag": "{kgc:{id:'chemicals:h'}}"
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:16777215}"
+                "tag": "{CustomPotionColor:9983}"
               },
               {
                 "function": "minecraft:set_nbt",
                 "tag": "{HideFlags:32}"
-              },
-              {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionEffects:[{Id:9,Duration:1200},{Id:19,Duration:800}]}"
               }
             ]
           }

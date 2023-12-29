@@ -26,6 +26,10 @@
               },
               {
                 "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'meth:tarhun'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
                 "tag": "{CustomPotionColor:4521779}"
               },
               {

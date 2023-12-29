@@ -26,6 +26,10 @@
               },
               {
                 "function": "minecraft:set_nbt",
+                "tag": "{kgc:{id:'meth:kvass'}}"
+              },
+              {
+                "function": "minecraft:set_nbt",
                 "tag": "{CustomPotionColor:2824707}"
               },
               {
